@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB31FAB167F423E00845395 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB31FAA167F423E00845395 /* main.cpp */; };
+		CEB31FAD167F423E00845395 /* XireTask4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEB31FAC167F423E00845395 /* XireTask4.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEB31FA4167F423E00845395 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEB31FAD167F423E00845395 /* XireTask4.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEB31FA6167F423E00845395 /* XireTask4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XireTask4; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB31FAA167F423E00845395 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEB31FAC167F423E00845395 /* XireTask4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XireTask4.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB31FA3167F423E00845395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB31F9B167F423E00845395 = {
+			isa = PBXGroup;
+			children = (
+				CEB31FA9167F423E00845395 /* XireTask4 */,
+				CEB31FA7167F423E00845395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB31FA7167F423E00845395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB31FA6167F423E00845395 /* XireTask4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB31FA9167F423E00845395 /* XireTask4 */ = {
+			isa = PBXGroup;
+			children = (
+				CEB31FAA167F423E00845395 /* main.cpp */,
+				CEB31FAC167F423E00845395 /* XireTask4.1 */,
+			);
+			path = XireTask4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB31FA5167F423E00845395 /* XireTask4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB31FB0167F423E00845395 /* Build configuration list for PBXNativeTarget "XireTask4" */;
+			buildPhases = (
+				CEB31FA2167F423E00845395 /* Sources */,
+				CEB31FA3167F423E00845395 /* Frameworks */,
+				CEB31FA4167F423E00845395 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XireTask4;
+			productName = XireTask4;
+			productReference = CEB31FA6167F423E00845395 /* XireTask4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB31F9D167F423E00845395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sigma Ukraine";
+			};
+			buildConfigurationList = CEB31FA0167F423E00845395 /* Build configuration list for PBXProject "XireTask4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEB31F9B167F423E00845395;
+			productRefGroup = CEB31FA7167F423E00845395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB31FA5167F423E00845395 /* XireTask4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB31FA2167F423E00845395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB31FAB167F423E00845395 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEB31FAE167F423E00845395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEB31FAF167F423E00845395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEB31FB1167F423E00845395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB31FB2167F423E00845395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB31FA0167F423E00845395 /* Build configuration list for PBXProject "XireTask4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB31FAE167F423E00845395 /* Debug */,
+				CEB31FAF167F423E00845395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB31FB0167F423E00845395 /* Build configuration list for PBXNativeTarget "XireTask4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB31FB1167F423E00845395 /* Debug */,
+				CEB31FB2167F423E00845395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB31F9D167F423E00845395 /* Project object */;
+}
